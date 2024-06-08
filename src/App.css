@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid;
+}
+
+.nav-items {
+  display: flex;
+}
+
+.logo img {
+  width: 120px;
+  height: 120px;
+  object-fit: contain;
+}
+
+.nav-items li {
+  list-style: none;
+  font-size: 22px;
+}
+.nav-items li a {
+  text-decoration: none;
+  padding: 0px 6px;
+}
+
+
+
